@@ -1,0 +1,204 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+
+
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.navigation-menu {
+    width: 100%;
+    margin-bottom: 5%;
+
+}
+
+section {
+    height: 500px;
+}
+
+.navigation-menu nav ul {
+    margin: 2% 7%;
+    font-size: 16;
+    font-weight: 500;
+    text-align: right;
+}
+
+.navigation-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.navigation-menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.introduction {}
+
+
+p {
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12%;
+}
+
+.text-highlight {
+    color: #FF8367;
+}
+
+
+
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+
+.one-third-width {
+
+    width: 25%;
+    margin-left: 4%;
+    padding-left: 2%;
+    float: left;
+
+}
+
+.one-third-width img {
+    display: block;
+    max-width: 95%;
+    margin-top: 10px;
+
+}
+
+.half-width img {
+    max-width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 20px 60px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+
+}
+
+
+
+.about {}
+
+.latest-work {
+    background-color: #F8F9FC;
+    height: 800px;
+}
+
+.latest-work h2 {
+    text-align: center;
+    padding: 7% 0 2% 0;
+}
+
+.single-work {
+    height: 370px;
+
+    background-color: #FFFFFF;
+    border-radius: 19.7px;
+    box-shadow: 10px 10px 40px lightgray;
+}
+
+
+.single-work img {
+    max-width: 90%;
+    padding: 20px;
+}
+
+.single-work .content {
+    margin-left: 20px;
+    padding: 0 10px;
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    padding: 7% 0 2% 0;
+}
+
+.work-inquiry {
+    width: 100%;
+    height: 300px;
+}
+
+.inquiry-block {
+    margin: 12% 20% 0 20%;
+    width: 80%;
+    height: 100%;
+    background-image: url(images/wi.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.clear {
+    clear: both;
+}
+
+.inquiry-block h2,
+.inquiry-block a {
+
+    display: inline-block;
+
+
+}
+
+.inquiry-block h2 {
+    color: #fff;
+    font-weight: 400;
+    margin: 8% 0 0 4%;
+
+}
+
+.inquiry-block a {
+    margin: 0 0 0 37% !important;
+
+}
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul li img {
+    width: 26px;
+}
